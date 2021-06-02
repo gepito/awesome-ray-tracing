@@ -207,6 +207,8 @@ PR's welcome!
 
 ### GLSL-PathTracer
 
+| Property | Value |
+| --- | --- |
 | Link | 💾 [GLSL-PathTracer](https://github.com/knightcrawler25/GLSL-PathTracer) |
 | About | A physically based path tracer that runs in a GLSL fragment shader. |
 | Language | C++, GLSL (OpenGL Shading Language) |
