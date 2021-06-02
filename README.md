@@ -234,12 +234,12 @@ PR's welcome!
 | Property | Value |
 | --- | --- |
 | Link | 💾 []() |
-| About |  |
+| About | Embree ray tracing kernels repository.  |
 | Language |  |
 | OS |  |
 | Linux Dependencies |  |
 | Windows dependencies |  |
-| General dependencies |  |
+| General dependencies | at least an x86 CPU with support for SSE2 \n or an Apple M1 CPU |
 
 ### 
 
