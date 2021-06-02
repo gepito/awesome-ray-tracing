@@ -25,6 +25,8 @@ PR's welcome!
   - [Nvidia RTX](#nvidia-rtx)
   - [Microsoft DirectX Raytracing (RTX)](#microsoft-directx-raytracing-dxr)
   - [Nvidia OptiX](#nvidia-optix)
+- [Applications](#applications)
+  - [GLSL-PathTracer](#glsl-raytracer)
   
 ## Legend
 
@@ -200,3 +202,58 @@ PR's welcome!
 - 📖 [Ray Tracing The Next Week in OptiX - (2018) *João Vítor Silva*](https://joaovbs96.github.io/optix/2018/12/24/next-week.html)
 - 💾 [optix_advanced_samples - (2018) *Nvidia*](https://github.com/nvpro-samples/optix_advanced_samples)
 - 📺 [GPU Ray Tracing for Film and Design: High Performance Ray Tracing with OptiX - (2018) *Oliver Klehm*](http://on-demand.gputechconf.com/siggraph/2018/video/sig1812-2-oliver-klehm-high-performance-optix.html)
+
+## Applications
+
+### GLSL-PathTracer
+
+| Link | 💾 [GLSL-PathTracer](https://github.com/knightcrawler25/GLSL-PathTracer) |
+| About | A physically based path tracer that runs in a GLSL fragment shader. |
+| Language | C++, GLSL (OpenGL Shading Language) |
+| OS | Linux, Windows |
+| Linux Dependencies | libdsl2 |
+| Windows dependencies | VS |
+| General dependencies | |
+
+### Sprout
+
+| Link | 💾 [Sprout](https://github.com/bolero-MURAKAMI/Sprout) |
+| About | C++11/14 constexpr based Containers, Algorithms, Random numbers, Parsing, Ray tracing, Synthesizer, and others. |
+| Language | C++ |
+| OS | Linux |
+| Linux Dependencies | GCC, C++11/14/17 |
+| | Clang, C++11/14/17 |
+| General dependencies |  |
+
+### 
+
+| Link | 💾 []() |
+| About |  |
+| Language |  |
+| OS |  |
+| Linux Dependencies |  |
+| Windows dependencies |  |
+| General dependencies |  |
+
+### 
+
+| Link | 💾 []() |
+| About |  |
+| Language |  |
+| OS |  |
+| Linux Dependencies |  |
+| Windows dependencies |  |
+| General dependencies |  |
+
+### TEMPLATE
+
+| Link | 💾 []() |
+| About |  |
+| Language |  |
+| OS |  |
+| Linux Dependencies |  |
+| Windows dependencies |  |
+| General dependencies |  |
+
+
+
