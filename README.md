@@ -412,7 +412,18 @@ tryout
 | General dependencies |  |
 | Licence | Apache 2.0  |
 
+### Art of Illusion 
 
+| Property | Value |
+| --- | --- |
+| Link | 💾 [Art of Illusion ](https://sourceforge.net/projects/aoi/) |
+| About | Art of Illusion is a full featured 3D modelling, rendering, and animation studio |
+| Language | Java |
+| OS |  |
+| Linux Dependencies |  |
+| Windows dependencies |  |
+| General dependencies |  |
+| Licence | GPLv2 |
 
 ### Template
 
