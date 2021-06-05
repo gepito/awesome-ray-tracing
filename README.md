@@ -205,43 +205,216 @@ PR's welcome!
 
 ## Applications
 
+### Embree
+
+| Property | Value |
+| --- | --- |
+| Link | 💾 [Embree](https://github.com/embree/embree) |
+| About | Embree ray tracing kernels repository |
+| Language | C++ |
+| OS | Windows (32-bit and 64-bit), Linux (64-bit), and macOS (64-bit) |
+| Compiler | Intel® Compiler, GCC, Clang, and the Microsoft Compiler |
+| Linux Dependencies | cmake tbb-devel glfw-devel |
+| Windows dependencies | CMake |
+| General dependencies | at least an x86 CPU with support for SSE2 <br> or an Apple M1 CPU |
+| Licence | Apache-2.0 |
+
 ### GLSL-PathTracer
 
 | Property | Value |
 | --- | --- |
 | Link | 💾 [GLSL-PathTracer](https://github.com/knightcrawler25/GLSL-PathTracer) |
-| About | A physically based path tracer that runs in a GLSL fragment shader. |
+| About | A physically based path tracer that runs in a GLSL fragment shader |
 | Language | C++, GLSL (OpenGL Shading Language) |
 | OS | Linux, Windows |
 | Linux Dependencies | libdsl2 |
 | Windows dependencies | VS |
 | General dependencies | |
+| Licence | MIT |
 
 ### Sprout
 
 | Property | Value |
 | --- | --- |
 | Link | 💾 [Sprout](https://github.com/bolero-MURAKAMI/Sprout) |
-| About | C++11/14 constexpr based Containers, Algorithms, Random numbers, Parsing, Ray tracing, Synthesizer, and others. |
+| About | C++11/14 constexpr based Containers, Algorithms, Random numbers, Parsing, Ray tracing, Synthesizer, and others |
 | Language | C++ |
 | OS | Linux |
 | Linux Dependencies | GCC, C++11/14/17 |
 | | Clang, C++11/14/17 |
 | General dependencies |  |
+| Licence | BSL-1.0 |
 
-### 
+tryout
+
+### NanoRT
 
 | Property | Value |
 | --- | --- |
-| Link | 💾 []() |
-| About | Embree ray tracing kernels repository.  |
+| Link | 💾 [nanort](https://github.com/lighttransport/nanort) |
+| About | NanoRT, single header only modern ray tracing kernel |
+| Language | C++ |
+| OS | MacOSX, Linux, Windows, iOS, Android, ARM, x86, SPARC, (maybe) MIPS, (will be) RISC-V, etc. |
+| Licence | MIT |
+
+tryout
+
+### LuxCore
+
+| Property | Value |
+| --- | --- |
+| Link | 💾 [LuxCore](https://github.com/LuxCoreRender/LuxCore) |
+| About | LuxCoreRender is a physically correct, unbiased rendering engine |
+| Language | C++ |
+| Windows dependencies | Visual Studio 2017 |
+| Licence | Apache-2.0 |
+
+### OSPRay
+
+| Property | Value |
+| --- | --- |
+| Link | 💾 [Intel OSPRay](https://www.ospray.org/) |
+| About | An Open, Scalable, Portable, Ray Tracing Based Rendering Engine for High-Fidelity Visualization  |
+| Language | C, C++ |
+| OS | Linux, Mac OS X, and Windows |
+| Linux Dependencies | cmake, tbb-devel |
+| Windows dependencies |  CMake, TBB, ISPC (for your Visual Studio version), Embree |
+| General dependencies | Intel oneAPI Rendering Toolkit common library <br> Intel Embree <br> Intel ISPC (Implicit SPMD Program Compiler) <br> Intel Open VKL |
+| Licence | Apache-2.0 |
+
+### PlotOptiX
+
+| Property | Value |
+| --- | --- |
+| Link | 💾 [PlotOptiX](https://github.com/rnd-team-dev/plotoptix) |
+| About | Data visualisation in Python based on OptiX 7.2 ray tracing framework.  |
+| Language | Python |
+| OS | Windows 10, Ubuntu 18.04, CentOS 7 |
+| Linux Dependencies | Mono Common Language Runtime >= 5.2 <br> pythonnet >= 2.5.1 <br> FFmpeg >= 4.1 |
+| Windows dependencies | .NET Framework >= 4.6.1  |
+| General dependencies | Python 3 64-bit <br> NVIDIA OptiX 7.2 |
+| Licence | PlotOptiX is free for non-commercial use |
+
+### Visionaray
+
+| Property | Value |
+| --- | --- |
+| Link | 💾 [Visionaray](https://github.com/szellmann/visionaray) |
+| About | A C++-based, cross platform ray tracing library   |
+| Language | C++ |
+| OS | Linux, Mac OS X, and Windows |
+| Linux Dependencies | C++11 compiler (tested with g++-7.4.0 on Ubuntu 18.04 x86_64 |
+| Mac OS dependencies | clang-900.0.39.2 |
+| Windows dependencies | Microsoft Visual Studio 2015 VC14 for x64 |
+| General dependencies | CMake version 3.1.3 or newer <br> OpenGL <br>  GLEW <br> Boost <br> GLUT  |
+| Licence | MIT |
+
+tryout
+
+### SORT
+
+| Property | Value |
+| --- | --- |
+| Link | 💾 [SORT](https://github.com/JiayinCao/SORT) |
+| About | Simple Open-source Ray Tracing |
+| Language | C++, Python |
+| OS | Windows, Ubuntu, MacOS |
+| Licence | GPL-3.0 License  |
+
+### c-ray
+
+| Property | Value |
+| --- | --- |
+| Link | 💾 [c-ray](https://github.com/vkoskiv/c-ray) |
+| About | C-ray is a research oriented, hackable, offline CPU rendering engine built for learning. |
+| Language | C |
+| OS |  |
+| Linux Dependencies |  |
+| Windows dependencies |  |
+| General dependencies |  |
+| Licence | MIT |
+
+
+### voxel-cone-tracing
+
+| Property | Value |
+| --- | --- |
+| Link | 💾 [voxel-cone-tracing](https://github.com/Friduric/voxel-cone-tracing) |
+| About | A real-time global illumination implementation using voxel cone tracing. Implemented in C++ and GLSL.  |
+| Language | C, C++ |
+| General dependencies | CMake OpenGL 4.4 |
+| Licence | MIT |
+| Comment | last submit 5 y old |
+
+### minpt
+
+| Property | Value |
+| --- | --- |
+| Link | 💾 [minpt](https://github.com/hi2p-perim/minpt) |
+| About |A path tracer in 300 lines of C++   |
+| Language | C++ |
+| OS |  |
+| Linux Dependencies |  |
+| Windows dependencies |  |
+| General dependencies | OpenMP  |
+| Licence | ~GPL (?) |
+| Comment | last submit 2 y old |
+
+
+### lightmetrica-v3
+
+| Property | Value |
+| --- | --- |
+| Link | 💾 [lightmetrica-v3](https://github.com/lightmetrica/lightmetrica-v3) |
+| About | A research-oriented renderer  |
+| Language | C++ Python |
+| OS | Windows, Mac OS X, Linux |
+| Linux Dependencies |  |
+| Windows dependencies |  |
+| General dependencies |  |
+| Licence |  |
+| Comment | [Extensive documentation](https://lightmetrica.github.io/lightmetrica-v3-doc/build.html) |
+
+### BVH
+
+| Property | Value |
+| --- | --- |
+| Link | 💾 [bvh](https://github.com/madmann91/bvh) |
+| About | This is a modern C++17 header-only BVH library optimized for ray-tracing. |
+| Language | C++ |
+| OS |  |
+| General dependencies | OpenMP |
+| Licence | MIT |
+
+### DiligentEngine
+
+| Property | Value |
+| --- | --- |
+| Link | 💾 [DiligentEngine](https://github.com/DiligentGraphics/DiligentEngine) |
+| About | A modern cross-platform low-level graphics library and rendering framework  |
+| Language | C++ |
+| OS |  |
+| Linux Dependencies |  |
+| Windows dependencies |  |
+| General dependencies | take full advantage of Direct3D12, Vulkan and Metal, while supporting older platforms via Direct3D11, OpenGL and OpenGLES |
+| Licence | Apache 2.0 |
+
+### The-Forge
+
+| Property | Value |
+| --- | --- |
+| Link | 💾 [The-Forge](https://github.com/ConfettiFX/The-Forge) |
+| About | The Forge is a cross-platform rendering framework |
 | Language |  |
 | OS |  |
 | Linux Dependencies |  |
 | Windows dependencies |  |
-| General dependencies | at least an x86 CPU with support for SSE2 <br> or an Apple M1 CPU |
+| General dependencies |  |
+| Licence | Apache 2.0  |
 
-### 
+
+
+### Template
 
 | Property | Value |
 | --- | --- |
@@ -252,18 +425,7 @@ PR's welcome!
 | Linux Dependencies |  |
 | Windows dependencies |  |
 | General dependencies |  |
-
-### TEMPLATE
-
-| Property | Value |
-| --- | --- |
-| Link | 💾 []() |
-| About |  |
-| Language |  |
-| OS |  |
-| Linux Dependencies |  |
-| Windows dependencies |  |
-| General dependencies |  |
+| Licence |  |
 
 
 
